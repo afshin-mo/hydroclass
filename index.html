@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hydroclass Lift</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Anton|Baloo+Bhai|Big+Shoulders+Display|Montserrat|Roboto&display=swap" rel="stylesheet">        <link rel="stylesheet" href="styles/font-awesome/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <link rel="stylesheet" href="styles/owl.carousel.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="styles/owl.theme.default.min.css"> -->
+        <link rel="stylesheet" href="styles/owl.theme.green.min.css">
+        <link rel="stylesheet" href="styles/sliderStyle.css">
+        <link rel="stylesheet" href="styles/elementStyle.css">
+        <link rel="stylesheet" href="styles/mainStyle.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="narrowBar">
+                <div class="narrowContact">
+                    <p><i class="fa fa-map-marker " aria-hidden="true"></i>Rizgary 412-Sulaymaniah,Iraq</p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i>info@hydro-class.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i>+964 7705489244</p>
+                </div>
+                <div class="socialBar">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div id="menuToggle">
+                <div id="nav-icon2">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div id="nav" class="nav">
+                <div class="logo">
+                    <a href="./index.html"><img class='flash coloredLogo' src="images/logo.png" alt="hydro-class"></a>
+                    <a href="./index.html"><img class='flash white-logo' src="images/white-logo.png" alt="hydro-class"></a>
+                </div>
+                <div class="mainMenu">
+                    <ul>
+                        <li>Home</li>
+                        <li>Projects</li>
+                        <li>Services</li>
+                        <li>Products</li>
+                        <li>Who we are...</li>
+                        <li>How to reach us...</li>
+                    </ul>
+                </div>
+            </div>
+            <div  class="topBody">
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <input type="radio" name="slider" class="trigger" id="one" checked="checked" />
+                        <div class="slide">
+                        <figure class="slide-figure">
+                            <div class="slide-img" id='img1'></div>
+                            <figcaption class="slide-caption">
+                                <p class="detailFont">Don't look around we are your solution</p>
+                                <p class='boldFont'>Hydroclass</p>
+                                <p class="subSlogan">Elevator Systems and Components</p>
+                                <p onclick="gotoStart();" class="customButton">Get Started</p>
+                            </figcaption>
+                        </figure><!-- .slide-figure -->
+                        </div><!-- .slide -->
+                        <input type="radio" name="slider" class="trigger" id="two" />
+                        <div class="slide">
+                        <figure class="slide-figure">
+                            <div class="slide-img" id='img2'></div>
+                            <figcaption class="slide-caption">
+                                <p class='boldFont'>You Get Best Quality with our Services</p>
+                                <p class="subSlogan">Installation,Design,Components</p>
+                            </figcaption>
+                        </figure><!-- .slide-figure -->
+                        </div><!-- .slide -->
+                        <input type="radio" name="slider" class="trigger" id="three" />
+                        <div class="slide">
+                        <figure class="slide-figure">
+                            <div class="slide-img" id='img3'></div>
+                            <figcaption class="slide-caption">
+                                    <p class='boldFont'>Safe,Smooth,High Efficiency</p>
+                                    <p class="subSlogan">More than 10 years of experience</p>
+                            </figcaption>
+                        </figure><!-- .slide-figure -->
+                        </div><!-- .slide -->
+                    </div><!-- .slider -->
+                    <ul class="slider-nav">
+                        <li id="0" class="slider-nav__item selected"><label class="slider-nav__label" for="one"></label></li>
+                        <li id="1" class="slider-nav__item"><label class="slider-nav__label" for="two"></label></li>
+                        <li id="2" class="slider-nav__item"><label class="slider-nav__label" for="three"></label></li>
+                    </ul><!-- .slider-nav -->
+                </div>
+             </div>
+            <div class="content">
+                <div id="startSection" class="mainTopic">
+                    <div class="parts">
+                        <div data-aos="fade-up" class="part">
+                            <div class="textPart">
+                                <h4>Why us...</h4>
+                                <p>Considering the many years of experience in designing and installing elevator systems,...</p>
+                                <i class='fa fa-chevron-circle-right' style='font-size:24px'></i>
+                            </div>
+                            <div class="imgPart">
+                                <img src="images/imgPart1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="part">
+                            <div class="textPart">
+                                <h4>Company profile</h4>
+                                <p>thyssenkrupp / liftequip Elevator systems.
+                                Hydraulic systems Blain valve , GMV, OMAR lift</p>
+                                <i class='fa fa-chevron-circle-right' style='font-size:24px'></i>
+                            </div>
+                            <div class="imgPart">
+                                <img src="images/imgPart2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" class="part">
+                            <div class="textPart">
+                                <h4>Our services</h4>
+                                <p>our products includes elevator’s 
+                                        components, gearlees 
+                                        and gearbox machines and ...</p>
+                                <i class='fa fa-chevron-circle-right' style='font-size:24px'></i>
+                            </div>
+                            <div class="imgPart">
+                                <img src="images/imgPart3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section products">
+                    <div class="title">
+                        <h4>Our Products</h4>
+                        <div class="line"></div>
+                    </div>
+                    <p>Our products utilize the most trusted brands in Europe to provide you with the best possible use of elevator space.</p>
+                    <div class="parts">
+                        <div data-aos="zoom-out-up" class="product">
+                            <img src="images/thumb3.jpg" alt="">
+                            <h4 class="topic">Gearless Machines</h4>
+                            <p class="details">Permanent magnet synchronous motors with gearless drive</p>
+                            <ul>
+                                <li>Silent and economical</li>
+                                <li>Low consumption</li>
+                                <li>Minimum maintenance</li>
+                                <li>No oil</li>
+                            </ul>
+                            <i class='fa fa-chevron-circle-right' style='font-size:24px'></i>
+                        </div>
+                        <div data-aos="zoom-in" class="product">
+                            <img src="images/thumb2.jpg" alt="">
+                            <h4 class="topic">Gearbox Machines</h4>
+                            <p class="details">This kind of elevator's engines provides you lots of options</p>
+                            <ul>
+                                <li>Variable motor position</li>
+                                <li>Motor control</li>
+                                <li>Emergency braking system</li>
+                                <li>Smoothness </li>
+                                <li>Optimal adjustment</li>
+                            </ul>
+                            <i class='fa fa-chevron-circle-right' style='font-size:24px'></i>
+                        </div>
+                        <div data-aos="zoom-out-up" class="product">
+                            <img src="images/thumb1.jpg" alt="">
+                            <h4 class="topic">Components</h4>
+                            <p class="details">We provide you elevator's components like:</p>
+                            <ul>
+                                <li>Doors</li>
+                                <li>Panels</li>
+                                <li>...</li>
+                            </ul>
+                            <i class='fa fa-chevron-circle-right' style='font-size:24px'></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="section services">
+                    <div class="title">
+                        <h4>What we can do for you</h4>
+                        <div class="line"></div>
+                        <p></p>
+                    </div>
+                    <div data-aos="fade-up"
+                         data-aos-anchor-placement="bottom-center"
+                         data-aos-duration="1000" 
+                         class="service">
+                        <img src="images/repair.png" alt="">
+                        <h4 class=topic>Maintenance</h4>
+                        <p class="detail">Elevator maintenance cotract with lots of benefits and latest technology to make you sure that your evelvator always ready to lift</p>
+                    </div>
+                    <div data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-center"
+                        data-aos-duration="1500"
+                        class="service">
+                        <img src="images/sketch.png" alt="">
+                        <h4 class=topic>Design</h4>
+                        <p class="detail">Across clearly defined interfaces, you can combine our kits with a control system freely available on the market, the corresponding electrical components and with operating and indicator elements of your choice. This ensures that you are able to offer your customers an individual elevator from your company.</p>
+                    </div>
+                    <div data-aos="fade-up"
+                        data-aos-anchor-placement="bottom-center"
+                        data-aos-duration="2000" 
+                        class="service">
+                        <img src="images/process.png" alt="">
+                        <h4 class=topic>Installation</h4>
+                        <p class="detail">The installations are delivered as complete systems in line with the Machines Directive and with CE approval.</p>
+                    </div>
+                </div> 
+                <div class='section projects'>
+                    <div class="title">
+                        <h4>Our recent projects</h4>
+                        <div class="line"></div>
+                        <p></p>
+                    </div>
+                    <div class="parts">
+                        <ul id='thumbs' class='owl-carousel owl-theme project'>
+                            <li class='item element-item Zeitmass'>
+                                    <a class="fancybox" data-fancybox-group="gallery" title="Zeitmass" href="images/work/full/prj11.jpg">
+                                    <span class="overlay" >
+                                        <h4>Project Type</h4>
+                                        <p>Zeitmass-single phase</p>
+                                        <h4>Features</h4>
+                                        <ul class="features">
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>MR-2:1</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>6 stops</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>630 kg</li>
+                                        </ul>
+                                        <span class="font-icon-expand-view icon"></span>
+                                    </span>
+                                    </a>
+                                    <div class="imageHolder">
+                                        <img  src="images/work/thumbs/th11.jpg" alt="Description">
+                                    </div>
+                                </li>
+                            <li class='item element-item Hydraulic'>
+                                <a class="fancybox" data-fancybox-group="gallery" title="Hydraulic" href="images/work/full/prj21.jpg">
+                                    <span class="overlay" >
+                                        <h4>Project Type</h4>
+                                        <p>Hydraulic</p>
+                                        <h4>Features</h4>
+                                        <ul class="features">
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>Suspension: 2:1</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>2 stops</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>450 kg</li>
+                                        </ul>
+                                        <span class="font-icon-expand-view icon"></span>
+                                    </span>
+                                </a>
+                                <div class="imageHolder">
+                                    <img src="images/work/thumbs/th21.jpg" alt="">
+                                </div>
+                            </li>
+                            <li class='item element-item Zeitmass'>
+                                    <a class="fancybox" data-fancybox-group="gallery" title="Zeitmass" href="images/work/full/prj31.jpg">
+                                    <span class="overlay" >
+                                        <h4>Project Type</h4>
+                                        <p>Traction-Gearbox</p>
+                                        <h4>Features</h4>
+                                        <ul class="features">
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>MR-2:1</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>5 stops</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>630 kg</li>
+                                        </ul>
+                                        <span class="font-icon-expand-view icon"></span>
+                                    </span>
+                                    </a>
+                                    <div class="imageHolder">
+                                        <img  src="images/work/thumbs/th31.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                    </div>
+                                </li>
+                            <li class='item element-item LEA-comfort'>
+                                    <a class="fancybox" data-fancybox-group="gallery" title="LEA-comfort" href="images/work/full/prj41.jpg">
+                                    <span class="overlay" >
+                                        <h4>Project Type</h4>
+                                        <p>LEA-comfort</p>
+                                        <h4>Features</h4>
+                                        <ul class="features">
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>MR-2:1</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>7 stops</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>1000 kg</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>1.6 m/s</li>
+                                        </ul>
+                                        <span class="font-icon-expand-view icon"></span>
+                                    </span>
+                                    </a>
+                                    <div class="imageHolder">
+                                        <img  src="images/work/thumbs/th41.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                    </div>
+                                </li>
+                            <li class='item element-item Zeitmass'>
+                                    <a class="fancybox" data-fancybox-group="gallery" title="Zeitmass" href="images/work/full/prj51.jpg">
+                                    <span class="overlay" >
+                                        <h4>Project Type</h4>
+                                        <p>Zeitmass-single phase</p>
+                                        <h4>Features</h4>
+                                        <ul class="features">
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>MR-2:1</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>4 stops</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>450 kg</li>
+                                        </ul>
+                                        <span class="font-icon-expand-view icon"></span>
+                                    </span>
+                                    </a>
+                                    <div class="imageHolder">
+                                        <img src="images/work/thumbs/th51.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                    </div>
+                                </li>
+                            <li class='item element-item Hydraulic'>
+                                    <a class="fancybox" data-fancybox-group="gallery" title="Hydraulic" href="images/work/full/prj61.jpg">
+                                    <span class="overlay" >
+                                        <h4>Project Type</h4>
+                                        <p>Hydraulic</p>
+                                        <h4>Features</h4>
+                                        <ul class="features">
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>Suspension: 2:1</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>2 stops</li>
+                                            <li><span class="font-icon-arrow-simple-right-circle"></span>630 kg</li>
+                                        </ul>
+                                        <span class="font-icon-expand-view icon"></span>
+                                    </span>
+                                    </a>
+                                    <div class="imageHolder">
+                                        <img src="images/work/thumbs/th61.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                    </div>
+                                </li>
+                            <li class='item element-item LEA-comfort'>
+                                <a class="fancybox" data-fancybox-group="gallery" title="LEA-comfort" href="images/work/full/prj71.jpg">
+                                <span class="overlay" >
+                                    <h4>Project Type</h4>
+                                    <p>LEA-comfort111</p>
+                                    <h4>Features</h4>
+                                    <ul class="features">
+                                        <li><span class="font-icon-arrow-simple-right-circle"></span>MRL-2:1</li>
+                                        <li><span class="font-icon-arrow-simple-right-circle"></span>4 stops</li>
+                                        <li><span class="font-icon-arrow-simple-right-circle"></span>1000 kg</li>
+                                        <li><span class="font-icon-arrow-simple-right-circle"></span>1.0 m/s</li>
+                                    </ul>
+                                    <span class="font-icon-expand-view icon"></span>
+                                </span>
+                                </a>
+                                <span class="7" title="prj72"></span>
+                                <div class="imageHolder">
+                                    <img src="images/work/thumbs/th71.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+                <div class="section contacts">
+                    <div class="title">
+                        <h4>Contact us...</h4>
+                        <div class="line"></div>
+                        <p></p>
+                    </div>
+                    <div class="contact">
+                        <div class="address">
+                            <i class="fa fa-map-marker " aria-hidden="true"></i>
+                            <p>H. 116/Street 10/Malik Mahmood st.</p>
+                            <p>Rizgary 412-Sulaymaniah,Iraq</p>
+                        </div>
+                        <div class="phone">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <p>+964 770 5489244</p>
+                            <p>+964 053 3509421</p>
+                        </div>
+                        <div class="email">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <p>info@hydro-class.com</p>
+                        </div>
+                    </div>
+                </div>  
+                <div class="subscribe">
+                    <form action="action_page.php">
+                        <input type="text" placeholder="Email address" name="mail" required>
+                        <input type="submit" value="Subscribe">
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </body>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="scripts/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/script.js"></script>
+</html>
